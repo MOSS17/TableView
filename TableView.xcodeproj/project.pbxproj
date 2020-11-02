@@ -14,6 +14,8 @@
 		3DB7F34E2550A1CE001521A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB7F34C2550A1CE001521A4 /* LaunchScreen.storyboard */; };
 		3DB7F3592550A1CE001521A4 /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7F3582550A1CE001521A4 /* TableViewTests.swift */; };
 		3DB7F3642550A1CE001521A4 /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7F3632550A1CE001521A4 /* TableViewUITests.swift */; };
+		3DB7F3722550A9BF001521A4 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7F3712550A9BF001521A4 /* Alumno.swift */; };
+		3DB7F3752550B5E3001521A4 /* CeldaAlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7F3742550B5E3001521A4 /* CeldaAlumnoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3DB7F35F2550A1CE001521A4 /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB7F3632550A1CE001521A4 /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		3DB7F3652550A1CE001521A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB7F3712550A9BF001521A4 /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
+		3DB7F3742550B5E3001521A4 /* CeldaAlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaAlumnoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				3DB7F3422550A1C5001521A4 /* TableView */,
+				3DB7F3732550A9D1001521A4 /* Models */,
+				3DB7F3762550B5F3001521A4 /* ViewControllers */,
 				3DB7F3572550A1CE001521A4 /* TableViewTests */,
 				3DB7F3622550A1CE001521A4 /* TableViewUITests */,
 				3DB7F3412550A1C5001521A4 /* Products */,
@@ -98,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				3DB7F3432550A1C5001521A4 /* AppDelegate.swift */,
-				3DB7F3452550A1C5001521A4 /* ViewController.swift */,
 				3DB7F3472550A1C5001521A4 /* Main.storyboard */,
 				3DB7F34A2550A1CE001521A4 /* Assets.xcassets */,
 				3DB7F34C2550A1CE001521A4 /* LaunchScreen.storyboard */,
@@ -123,6 +128,23 @@
 				3DB7F3652550A1CE001521A4 /* Info.plist */,
 			);
 			path = TableViewUITests;
+			sourceTree = "<group>";
+		};
+		3DB7F3732550A9D1001521A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DB7F3712550A9BF001521A4 /* Alumno.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3DB7F3762550B5F3001521A4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DB7F3452550A1C5001521A4 /* ViewController.swift */,
+				3DB7F3742550B5E3001521A4 /* CeldaAlumnoController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DB7F3462550A1C5001521A4 /* ViewController.swift in Sources */,
+				3DB7F3722550A9BF001521A4 /* Alumno.swift in Sources */,
 				3DB7F3442550A1C5001521A4 /* AppDelegate.swift in Sources */,
+				3DB7F3752550B5E3001521A4 /* CeldaAlumnoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
